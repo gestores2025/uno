@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Reproductor de Música</h1>
+        <div class="player">
+            <audio id="audioPlayer" controls>
+                <source src="musica/cancion1.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+            <div class="controls">
+                <button id="prev" class="control-btn">??</button>
+                <button id="playPause" class="control-btn">??</button>
+                <button id="next" class="control-btn">??</button>
+            </div>
+        </div>
+
+        <div class="playlist">
+            <ul id="playlist">
+                <!-- Lista de canciones -->
+                <li data-index="0">Canción 1</li>
+                <li data-index="1">Canción 2</li>
+                <li data-index="2">Canción 3</li>
+                <li data-index="3">Canción 4</li>
+                <li data-index="4">Canción 5</li>
+                <li data-index="5">Canción 6</li>
+                <li data-index="6">Canción 7</li>
+                <li data-index="7">Canción 8</li>
+                <li data-index="8">Canción 9</li>
+                <li data-index="9">Canción 10</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
